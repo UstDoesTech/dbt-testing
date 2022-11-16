@@ -1,0 +1,9 @@
+jaffle_shop: # this needs to match the profile in your dbt_project.yml file
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      schema: default
+      host: adb-4954657846100761.1.azuredatabricks.net
+      http_path: /sql/1.0/warehouses/2d3c0a4a0827a805
+      token: dapi898a53809f1aa34035309e2f3a1ed14f
